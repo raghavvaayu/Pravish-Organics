@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Organic Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Organic Shop</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Fresh & Healthy Organic Products</h2>
+      <p>Discover our wide range of organic fruits, vegetables, and more!</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="product-list">
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?w=400" alt="Organic Apples">
+          <h3>Organic Apples</h3>
+          <p>Fresh, juicy, and 100% organic.</p>
+          <span class="price">$4.99 / kg</span>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=400" alt="Organic Tomatoes">
+          <h3>Organic Tomatoes</h3>
+          <p>Vine-ripened and bursting with flavor.</p>
+          <span class="price">$3.99 / kg</span>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1506089676908-3592f7389d4d?w=400" alt="Organic Carrots">
+          <h3>Organic Carrots</h3>
+          <p>Crunchy and full of nutrients.</p>
+          <span class="price">$2.99 / kg</span>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are passionate about delivering the freshest and healthiest organic produce directly from our farms to your table. Our commitment is to sustainable farming and supporting local communities.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <div id="form-message"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      &copy; 2025 Organic Shop. All rights reserved.
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
